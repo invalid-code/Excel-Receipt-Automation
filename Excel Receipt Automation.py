@@ -5,7 +5,7 @@ from openpyxl.worksheet.worksheet import Worksheet
 from openpyxl.worksheet.page import PageMargins
 wb = Workbook()
 ws = wb.active
-def styling():	
+def styling():
 	count = 1
 	fonts = Font(name="Cambria", size=14)	
 	global_border = Border(top=Side(border_style="thin"), bottom=Side(border_style="thin"), right=Side(border_style="thin"), left=Side(border_style="thin"))
